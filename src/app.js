@@ -123,6 +123,7 @@ function addNewLine(previousUid = null) {
   document.getElementById("terminal").appendChild(terminalResponseEl);
 
   inputEl.focus(); // Ajoute le focus dès la création du champs
+  
 }
 
 /**
@@ -214,7 +215,7 @@ function handleCustomCommands(command) {
       return "Le CV va être téléchargé.";
     case "rm -rf /":
       rmRf();
-      return "w4dhIHZhIFDDiVRFUiAh";
+      return "BOOOOOOOM 💣 ";
     case "clear":
       terminalBody.innerHTML = `<div id="terminal"></div>`;
       return;

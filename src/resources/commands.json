@@ -8,7 +8,7 @@
         "<code>experiences</code> : Affiche la liste de mes expériences",
         "<code>get cv</code> : Télécharge le CV",
         "<code>help</code> : Affiche l'aide",
-        "<code>hobby</code> : Affiche la liste de mes passes temps",
+        "<code>hobbies</code> : Affiche la liste de mes passes temps",
         "<code>projets-perso</code> : Affiche la liste de mes projets personnels",
         "<code>dark/light</code> : Change le thème de la page",
         "<em>Vous pouvez utiliser la touche TAB afin de compléter une commande</em>",
@@ -20,10 +20,10 @@
       "responseType":"code",
       "value":[
         "{",
-        "   \"nom\" : \"Antoine DAUTRY\",",
-        "   \"poste\" : \"Développeur Fullstack\",",
-        "   \"experience\" : \"2 ans\",",
-        "   \"ville\" : \"Nantes, France\"",
+        "   \"Nom\" : \"Anthony Gomez\",",
+        "   \"Poste\" : \"Développeur back-end\",",
+        "   \"Expérience\" : \"2 ans à temps plein + 2 ans en alternance\",",
+        "   \"Localisation\" : \"Côte d'Azur, France\"",
         "}"
       ]
     },
@@ -32,44 +32,38 @@
       "responseType":"table",
       "headers":[
         "Date",
-        "Client",
+        "Entreprise",
         "Description",
-        "Tech"
+        "Stack technique"
       ],
       "rows":[
         [
-          "11/2021<br/>Ajd",
-          "Elephant Tech<br/><em>Ministère de la justice</em>",
-          "Mise en place d'une plateforme mettant en relation les<br/>différents acteurs de la réinsertion des anciens détenus.",
-          "Angular 11<br/>Spring Boot<br/>Axelor"
+          "06/2021<br/>→</br>Aujourd'hui",
+          "<a href=\"https://akt.io\" target=\"blank\">Akt.io</a><br/><em>App néobanque & crypto</em>",
+          "Développement d'event driven microservices bancaires & crypto.</br>Intégration de services KYC, AML & transaction monitoring.",
+          "Java<br/>Spring<br>Kafka</br>MongoDB<br/>AWS"
         ],
         [
-          "03/2021<br/>11/2021",
-          "SII<br/><em>La Poste</em>",
-          "Outil interne La Poste permettant de répartir les techniciens<br/>sur différentes missions.",
-          "Angular 11<br/>Spring Boot<br/>Spring Batch"
+          "10/2021<br/>→</br>06/2021",
+          "<a href=\"https://docaposte.com\" target=\"blank\">Docaposte</a><br/><em>Filière numérique du groupe La Poste</em>",
+          "Développement de services d'une API KYC.<br/>Développement de batchs.",
+          "Java<br/>Spring<br/>Elasticsearch<br/>Kibana"
         ],
         [
-          "02/2020<br/>03/2021",
-          "SII<br/><em>I.T. Dept</em>",
-          "Maintenance d'un outil interne de feuille de temps.<br/>Développement de plugins pour notre version de ProjeQtor.<br/>Conversion d'une ancienne webapp vers Angular 9.",
-          "Symfony<br/>Angular 9"
-        ],
-        [
-          "11/2019<br/>02/2020",
-          "SII<br/><em>Poste IMMO</em>",
-          "Travail sur un outil de gestion de processus pour gérer l'évolution d'une demande de travaux.",
-          "Symfony 3.4<br/>AngularJS<br/>Processmaker"
+          "09/2019<br/>→</br>09/2021",
+          "<a href=\"https://koedia.com\" target=\"blank\">Koedia</a><br/><em>Innovative travel technology</em>",
+          "Développement d'un PoC de dématérialisation de coupons de voyage basé sur la blockchain (smart contracts).",
+          "Java<br/>Spring boot<br/>Solidity<br/>Truffle<br/>Web3j<br/>Ethereum ERC-721 (NFT)"
         ]
       ]
     },
     {
-      "command":"hobby",
+      "command":"hobbies",
       "responseType":"list",
       "value":[
-        "Musique: Piano, Guitare",
-        "Programmation: JS, Angular, PHP",
-        "Autre: Cinéma, Aéronautique, Photographie"
+        "Technologies: Programmation, blockchain, crypto, métavers",
+        "Sport: Tennis, musculation, course à pied",
+        "Divertissement: Sim-racing, compétitions de jeu-vidéo (FPS), lecture"
       ]
     },
     {
@@ -83,22 +77,16 @@
       ],
       "rows":[
         [
-          "Chartsfinder - Web<br/>(2021)",
-          "Application web pour trouver rapidement des cartes aéronautiques. Une version C# existait déjà mais j'ai préféré la mettre à jour avec une version web qui est plus simple d'utilisation.",
-          "Angular 11, PHP 7.4",
-          "<a href=\"https://chartsfinder.adautry.fr\" target=\"blank\">Lien</a>"
+          "SEEKGAMERS <br> Webapp<br/>2019 → Aujourd'hui",
+          "Application web pour trouver rapidement des co-équipiers de parties compétitives de jeu-vidéo.",
+          "Node.js, React.js, MongoDB, socket.io",
+          "<a href=\"https://seekgamers.fr\" target=\"blank\">Lien</a>"
         ],
         [
-          "Personal website<br/>(2021)",
-          "Site web personnel me permettant de montrer mes projets et de déployer une nouvelle version du logiciel.<br/>Il y a même un jeu caché...",
-          "Symfony 5",
-          "<a href=\"https://adautry.fr\" target=\"blank\">Lien</a>"
-        ],
-        [
-          "Chartsfinder - Software<br/>(2020)",
-          "Logiciel permettant de récupérer rapidement les cartes aéronautiques.",
-          "C# WPF",
-          "<a href=\"https://adautry.fr/software/chartsfinder\" target=\"blank\">Lien</a>"
+          "GirlBoos Unlimited<br/>2019 → Aujourd'hui",
+          "Site officiel de l'événement cannois Girl Boss Cocktail, mettant à l'honneur l’entrepreneuriat féminin.",
+          "HTML5/CSS3/JavaScript<br>Gitlab pipelines",
+          "<a href=\"http://girlbossunlimited.com/\" target=\"blank\">Lien</a>"
         ]
       ]
     }

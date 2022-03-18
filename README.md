@@ -77,7 +77,7 @@ Just display text contained in `value`.
 
 ```json
 {
-    "command": "find . -type f -print | xargs grep \"hobby\"",
+    "command": "find . -type f -print | xargs grep \"hobbies\"",
     "responseType": "text",
     "value": "Bonsoir"
 }
